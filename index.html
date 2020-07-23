@@ -1,0 +1,210 @@
+<!--
+File: /~alora1/public_html/assignments/4/index.html (91.46) COMP 4610 GUI Programming I
+Assignment 4: Styling with Bootstrap
+Ambioris Lora, UMass Lowell Computer Science, alora1@cs.uml.edu
+Copyright (c) 2020 by Ambioris Lora. All rights reserved. May be
+freely
+copied or excerpted for educational purposes with credit to the
+author.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Assignment 4</title>
+
+
+        <!-- This goes in the css settings, just use the url in settings -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+        <!-- These go in the js settings, just use the url in settings -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <!-- This goes in the css box, remove <style> tags -->
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    </head>
+    <!--I received the code below from the professors in class bootstrap -->
+    <body>
+      <nav class="navbar navbar-inverse" style="margin-bottom:0;">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Welcome</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="Homework1_gui.rar" download>Homework 1</a></li>
+            <li><a href="http://cs.uml.edu/~alora1/index.html">Homework 2</a></li>
+            <li><a href="http://cs.uml.edu/~alora1/assignments/3/index.html">Homework 3</a></li>
+            <li><a href="http://cs.uml.edu/~alora1/assignments/4/index.html">Homework 4</a></li>
+            <li><a href="#">Homework 5</a></li>
+            <li><a href="#">Homework 6</a></li>
+            <li><a href="#">Homework 7</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class = "fluid-container" id = "topj">
+        <div class = "jumbotron">
+          <h1 class = "text-center"> GUI </h1>
+          <h2 class = "text-center"> Assignment 4 </h2>
+        </div>
+      </div>
+      <!-- I recieved the following code from https://www.w3schools.com/bootstrap/bootstrap_images.asp -->
+      <div class="container">
+        <div class = "col-md-4">
+          <img src="Ayer_Mill_View.jpg" class="img-circle" alt="Pic of lawrence" width="304" height="236">
+          <p class = "text-center">I am from Lawrence, Massachussets. I have spent most of my life in this city.</p>
+        </div>
+        <div class = "col-md-4">
+          <img src="manhattan2.jpg" class="img-circle" alt="Pic of lawrence" width="304" height="236">
+          <p class="text-center">I was Born in Manhattan, New York. I only lived there for a short period. </p>
+        </div>
+        <div class = "col-md-4">
+          <img src="uml.jpg" class="img-circle" alt="Pic of lawrence" width="304" height="236">
+          <p class = "text-center">Currently a senior in computer science at UML. Taking GUI as my Project course because of my interest in webpage design.</p>
+        </div>
+      </div>
+      <div class="container" id = "Courses">
+        <div class="col-md-6">
+          <table class = "table table-bordered">
+            <tr>
+              <th>Relevant Coursework</th>
+              <th>Year Taken</th>
+            </tr>
+            <tr>
+              <th>Computing 1</th>
+              <th>2018</th>
+            </tr>
+            <tr>
+              <th>Computing 2</th>
+              <th>2019</th>
+            </tr>
+            <tr>
+              <th>Computing 3</th>
+              <th>2019</th>
+            </tr>
+            <tr>
+              <th>Computing 4</th>
+              <th>2020</th>
+            </tr>
+            <tr>
+              <th>Calculus 1</th>
+              <th>2017</th>
+            </tr>
+            <tr>
+              <th>Calculus 2</th>
+              <th>2018</th>
+            </tr>
+            <tr>
+              <th>Calculus 3</th>
+              <th>2019</th>
+            </tr>
+            <tr>
+              <th>Assembly Language</th>
+              <th>2019</th>
+            </tr>
+            <tr>
+              <th>Computer Architecture</th>
+              <th>2020</th>
+            </tr>
+            <tr>
+              <th>Discrete Structures 1</th>
+              <th>2018</th>
+            </tr>
+            <tr>
+              <th>Discrete Structures 2</th>
+              <th>2019</th>
+            </tr>
+            <tr>
+              <th>Analysis of Algorithms</th>
+              <th>2020</th>
+            </tr>
+            <tr>
+              <th>Logic Design</th>
+              <th>2018</th>
+            </tr>
+            <tr>
+              <th>Foundations of Computer Science</th>
+              <th>2020</th>
+            </tr>
+          </table>
+        </div>
+        <div class="col-md-4">
+          <img src="Me.jpg" alt="missing" width ="500" height="518">
+        </div>
+      </div>
+
+
+  <!-- I recieved the following code from https://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
+<div class="container">
+  <div class="col-md-8">
+
+  <br>
+  <div id="myCarousel" class="carousel slide col-md-4" data-ride="carousel" data-interval="false">
+    <h3 class ="text-center">Me and My fiance</h3>
+
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="pic1.JPG" alt="image 1" width="800" height="400">
+      </div>
+
+      <div class="item">
+        <img src="pic2.jpg" alt="image 2" width="460" height="345">
+      </div>
+
+    </div>
+
+
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </div>
+  <div class="col-md-4">
+    <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">External Pages</th>
+      <th scope="col">Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Handshake</td>
+      <td> <a href="https://uml.joinhandshake.com/users/19143901">Click Here</td>
+    </tr>
+    <tr>
+      <td>Linkedin</td>
+      <td><a href="https://www.linkedin.com/in/ambioris-lora-alora/">Click Here</td>
+    </tr>
+    <tr>
+      <td>Github</td>
+      <td><a href="https://github.com/Siroibma/College">Click Here</td>
+    </tr>
+  </tbody>
+</table>
+  </div>
+
+</div>
+
+
+
+      <div class = "footer">
+        <p> @2020 Copyright: Ambioris Lora </p>
+      </div>
+    </body>
