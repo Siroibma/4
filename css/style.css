@@ -1,0 +1,48 @@
+/*
+File: /~alora1/public_html/index.html
+(91.46) COMP 4610 GUI Programming I
+Assignment 4: Bootstrap styling
+Ambioris Lora, UMass Lowell Computer Science, alora1@cs.uml.edu
+Copyright (c) 2020 by Ambioris Lora. All rights reserved. May be
+freely
+copied or excerpted for educational purposes with credit to the
+author.
+*/
+.container {
+  padding-top: 3px;
+  border: 1px #87CEFA solid;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #87CEFA;
+  color: white;
+  text-align: center;
+  padding-top: 1px;
+  margin-top: 5px;
+  padding-bottom: 0px;
+}
+
+#Courses {
+  padding-top: 10px;
+  padding-left: 0px;
+}
+
+
+.jumbotron {
+  color: black;
+}
+
+#myCarousel {
+  border: 5px solid white;
+  height: 380px;
+  overflow: hidden;
+}
+
+h3 {
+  padding-bottom: 0;
+}
